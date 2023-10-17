@@ -1,0 +1,285 @@
+.gradient-background {
+    background: linear-gradient(300deg, #005C37, #00455C, #005C56 );
+    background-size: 100% 300%;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+.sub-title {
+    font-size: 2rem;
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+    text-shadow: 3px 0 #232931;
+    margin: 0px;
+}
+
+.player {
+    display: inline-block;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.player-name {
+    font-size: 2rem;
+    font-family: 'Bebas Neue', sans-serif;
+    margin: 20px;
+    color: #ffd700;
+    text-shadow: 3px 0 #232931;
+}
+
+.img1 {
+    width: 240px;
+}
+
+.img2 {
+    width: 240px;
+}
+
+.app-logo {
+    width: 30px;
+}
+
+.socials {
+    width: 15%;
+    padding-left: 650px;
+    display: flex;
+    justify-content: space-around;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 8rem;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #ffd700;
+    text-shadow: 5px 0 #232931;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+button {
+    font-size: 25px;
+    height: 35px;
+    width: 110px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+main {
+    text-align: center;
+}
+
+footer {
+    margin-top: 30px;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 0 #232931;
+    justify-content: space-around;
+}
+
+a {
+    color: #ffd700;
+}
+
+@media (max-device-width: 375px) {
+    .container {
+        text-align: center;
+        margin-bottom: 0px;
+    }
+
+    .sub-title {
+        font-size: 1.7rem;
+        margin-bottom: 2px;
+    }
+
+    .player-name {
+        font-size: 25px;
+        margin: 0px;
+    }
+
+    .player {
+        display: inline-block;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    
+    .img1 {
+        width: 190px;
+    }
+    
+    .img2 {
+        width: 190px;
+    }
+
+    .socials {
+        width: 40%;
+        padding-left: 115px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .app-logo {
+        width: 25px;
+    }
+
+    body {
+        margin: 0%;
+    }
+
+    h1 {
+        font-size: 4rem;
+        margin: 0%;
+    }
+
+    button {
+        font-size: 20px;
+        height: 30px;
+        width: 85px;
+        margin-top: 0px;
+        margin-bottom: 5px;
+    }
+
+    footer {
+        font-size: 15px;
+        margin-top: 5px;
+    }  
+}
+
+@media (min-device-width: 376px) and (max-width: 480px) {
+    .container {
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    .sub-title {
+        font-size: 2rem;
+    }
+
+    .player-name {
+        font-size: 30px;
+        margin: 5px;
+    }
+
+    .player {
+        display: inline-block;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    
+    .img1 {
+        width: 220px;
+    }
+    
+    .img2 {
+        width: 220px;
+    }
+
+    .socials {
+        width: 40%;
+        padding-left: 123px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .app-logo {
+        width: 25px;
+    }
+
+    body {
+        margin: 0%;
+    }
+
+    h1 {
+        font-size: 4.7rem;
+        margin: 0%;
+    }
+
+    button {
+        font-size: 20px;
+        height: 30px;
+        width: 85px;
+        margin-bottom: 5px;
+    }
+
+    footer {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 900px) {
+    .container {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+      }
+
+    .sub-title {
+        font-size: 3.8rem;
+    }
+
+    .player-name {
+        font-size: 50px;
+        margin: 0px;
+    }
+
+    .player {
+        display: inline-block;
+        margin-right: 100px;
+        margin-left: 100px;
+    }
+    
+    .img1 {
+        width: 300px;
+    }
+    
+    .img2 {
+        width: 300px;
+    }
+
+    .socials {
+        width: 40%;
+        padding-left: 250px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .app-logo {
+        width: 45px;
+    }
+
+    body {
+        margin: 0%;
+    }
+
+    h1 {
+        font-size: 8rem;
+        margin: 0%;
+    }
+
+    button {
+        font-size: 35px;
+        height: 50px;
+        width: 130px;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+
+    footer {
+        font-size: 25px;
+        margin-top: 15px;
+    }
+} 
